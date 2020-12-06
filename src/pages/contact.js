@@ -8,7 +8,9 @@ const Contact = () => {
         <Layout>
             <SEO title = "Contact" />
             <h1>Contact</h1>
-            <p>This page is the contact page.</p>
+            <p>Email: sachin@gmail.com <br></br>
+                Phone: 480-987-6543
+            </p>
             <Link to = "/">Go Home</Link>
         </Layout>
     )

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Blog Spot`,
-    description: `A High-Quality Blog for The Modern Age`,
+    title: `Sachin's Sports Blog`,
+    description: `Made for Avid Sports Fans`,
     author: `@Sachin Subramanian`,
   },
   plugins: [
