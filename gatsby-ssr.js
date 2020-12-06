@@ -10,9 +10,9 @@ import { Auth0Provider } from "@auth0/auth0-react"
 export const wrapRootElement = ({element}) => {
     return (
         <Auth0Provider
-        domain= "dev-8ennyzey.us.auth0.com"
-        clientId= "d0wI2qRgtAd0yEInMwTvU4HH5HEwlurn"
-        redirectUri= "http://localhost:8000/blog"
+            domain={process.env.GATSBY_AUTH_DOMAIN}
+            clientId={process.env.GATSBY_AUTH_CLIENT_ID}
+            redirectUri={process.env.GATSBY_AUTH_REDIRECT}
         >
             {element}
         </Auth0Provider>
